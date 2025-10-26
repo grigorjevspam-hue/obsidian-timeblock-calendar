@@ -1,8 +1,18 @@
-/*
+h2 {
+	text-align: center;
+	margin-bottom: 1em;
+}
 
-This CSS file will be included with your plugin, and
-available in the app when your plugin is enabled.
+ul {
+	list-style: none;
+	padding-left: 0;
+}
 
-If your plugin does not need CSS, delete this file.
+a {
+	color: var(--text-accent);
+	text-decoration: none;
+}
 
-*/
+a:hover {
+	text-decoration: underline;
+}
